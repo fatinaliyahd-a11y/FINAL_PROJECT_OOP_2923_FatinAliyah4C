@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunnah Meal Finder</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    h1{
+        text-align: center;
+        color: #003366;
+    }
+
+    input, button {
+        padding: 10px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    #searchBtn {
+        background-color: #003366;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #searchBtn:hover {
+        background-color: #0055aa;
+    }
+
+    /* GRID layout for recipes */
+    #result {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);/* 3 per row*/
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .recipe-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .recipe-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+
+    .recipe-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    #mealPlanBtn {
+        display: none;
+        background-color: #007b5e;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    #mealPlanBtn:hover {
+        background-color: #009970;
+    }
+
+    .banner {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .banner img {
+        width: 100%;
+        max-width: 1500px;     /* makes it fit laptop screen width nicely */
+        height: 590px;         /* adjust the height here if needed */
+        object-fit: cover;     /* makes image fill area without squishing */
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        display: block;
+        margin: 0 auto;
+    }
+
+
+  </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="bannerSunnahMealApp.png" alt="Sunnah Meal App Banner">
+    </div>
+    
+    <h1>Search for Sunnah Food</h1>
+  
+    <!-- Input box -->
+    <div style="text-align: center;">
+            <input type="text" id="sunnahFood" placeholder="Enter Sunnah Food (e.g. honey, dates, milk)">
+            <button id="searchBtn">Search</button>
+    </div>
+    
+    <!-- Grid container for recipe results -->
+    <div id="result"></div>
+    
+    <!-- Hidden button to open meal plan window -->
+    <div style="text-align: center;">
+            <button id="mealPlanBtn" style="display:none;">Create Meal Plan</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

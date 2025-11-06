@@ -1,0 +1,38 @@
+[
+  {
+    "date": "11/4/2025",
+    "weekPlan": {
+      "monday": "happy diet everyone",
+      "tuesday": "keep smiling",
+      "wednesday": "stay positive",
+      "thursday": "let's try to bake nutrient rich green peas cookies for mom's birthday!!",
+      "friday": "eat healthy!",
+      "saturday": "be safe",
+      "sunday": "eat sunnah food like dates"
+    }
+  },
+  {
+    "date": "11/5/2025",
+    "weekPlan": {
+      "monday": "Breakfast: Peanut Butter Banana Smoothie\n\nLunch: Peaches, Tomatoes & Goat Cheese Layer Cake (with Peach-Basil Sauce)\n\nSnack: Chocolate Pistachio Energy Bites\n\nDinner: Bacon Wrapped Dates with Manchego & Romesco Sauce",
+      "tuesday": "Breakfast: Mango Banana Coconut Smoothie\n\nLunch: Raw Vegan Chocolate Ice Cream Cupcakes (light dessert after meal)\n\nSnack: Nutrient-Rich Green Peas Cookies\n\nDinner: Almond Cacao Nut Balls",
+      "wednesday": "Breakfast: Milky Watermelon Drink\n\nLunch: Easy, All-Natural Protein Bars\n\nSnack: Chocolate Pistachio Energy Bites\n\nDinner: Peaches, Tomatoes & Goat Cheese Layer Cake",
+      "thursday": "Breakfast: Peanut Butter Banana Smoothie\n\nLunch: Bacon Wrapped Dates with Manchego & Romesco Sauce\n\nSnack: Almond Cacao Nut Balls\n\nDinner: Mango Banana Coconut Smoothie",
+      "friday": "Breakfast: Milky Watermelon Drink\n\nLunch: Nutrient-Rich Green Peas Cookies\n\nSnack: Easy, All-Natural Protein Bars\n\nDinner: Raw Vegan Chocolate Ice Cream Cupcakes",
+      "saturday": "Breakfast: Mango Banana Coconut Smoothie\n\nLunch: Peaches, Tomatoes & Goat Cheese Layer Cake\n\nSnack: Chocolate Pistachio Energy Bites\n\nDinner: Bacon Wrapped Dates with Manchego & Romesco Sauce",
+      "sunday": "Breakfast: Almond Cacao Nut Balls\n\nLunch: Milky Watermelon Drink\n\nSnack: Nutrient-Rich Green Peas Cookies\n\nDinner: Raw Vegan Chocolate Ice Cream Cupcakes"
+    }
+  },
+  {
+    "date": "11/6/2025",
+    "weekPlan": {
+      "monday": "Starting the week light with Honey Dijon Roasted Brussels Sprout — healthy and tasty!",
+      "tuesday": "Enjoying something sweet today — Turkish Delight for dessert.\nWednesday: A refreshing drink day with Honey Bee, simple and energizing.",
+      "wednesday": "Keeping it fresh with Fresh Peach with Goat Cheese Side Salad.",
+      "thursday": "Mixing it up again with Honey Dijon Roasted Brussels Sprout for a warm, cozy meal.",
+      "friday": "A refreshing drink day with Honey Bee, simple and energizing.",
+      "saturday": "Treat day! Having Turkish Delight to relax the weekend.",
+      "sunday": "Ending the week gently with Fresh Peach with Goat Cheese Side Salad — light and refreshing."
+    }
+  }
+]
